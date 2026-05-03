@@ -25,46 +25,56 @@
         "keybindings": [
             {
                 "key": "ctrl+shift+b",
+                "mac": "cmd+shift+b",
                 "command": "workbench.action.tasks.build"
             },
             {
                 "key": "ctrl+b",
+                "mac": "cmd+b",
                 "command": "workbench.debug.viewlet.action.addFunctionBreakpointAction"
             },
             {
                 "key": "ctrl+shift+f9",
+                "mac": "cmd+shift+f9",
                 "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
             },
             {
                 "key": "ctrl+shift+f5",
+                "mac": "cmd+shift+f5",
                 "command": "workbench.action.debug.restart",
                 "when": "inDebugMode"
             },
             {
                 "key": "ctrl+f10",
+                "mac": "cmd+f10",
                 "command": "editor.debug.action.runToCursor",
                 "when": "inDebugMode"
             },
             {
                 "key": "ctrl+k ctrl+d",
+                "mac": "cmd+k cmd+d",
                 "command": "editor.action.formatDocument"
             },
             {
                 "key": "ctrl+k ctrl+x",
+                "mac": "cmd+k cmd+x",
                 "command": "insertSnippet"
             },
             {
                 "key": "ctrl+shift+l",
+                "mac": "cmd+shift+l",
                 "command": "editor.action.deleteLines",
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+l",
+                "mac": "cmd+l",
                 "command": "editor.action.clipboardCutAction",
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+shift+g",
+                "mac": "cmd+shift+g",
                 "command": "workbench.action.files.openFileFolder"
             },
             {
@@ -73,10 +83,12 @@
             },
             {
                 "key": "ctrl+y",
+                "mac": "cmd+y",
                 "command": "redo"
             },
             {
                 "key": "ctrl+w",
+                "mac": "cmd+w",
                 "command": "editor.action.smartSelect.expand",
                 "when": "editorTextFocus"
             },
@@ -87,6 +99,7 @@
             },
             {
                 "key": "ctrl+alt+space",
+                "mac": "cmd+alt+space",
                 "command": "editor.action.triggerSuggest",
                 "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
             },
@@ -96,50 +109,61 @@
             },
             {
                 "key": "ctrl+delete",
+                "mac": "cmd+delete",
                 "command": "deleteWordEndRight",
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+backspace",
+                "mac": "cmd+backspace",
                 "command": "deleteWordStartLeft",
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+shift+s",
+                "mac": "cmd+shift+s",
                 "command": "workbench.action.files.saveAll"
             },
             {
                 "key": "ctrl+alt+o",
+                "mac": "cmd+alt+o",
                 "command": "workbench.action.output.toggleOutput"
             },
             {
                 "key": "ctrl+alt+l",
+                "mac": "cmd+alt+l",
                 "command": "workbench.view.explorer"
             },
             {
                 "key": "ctrl+r ctrl+r",
+                "mac": "cmd+r cmd+r",
                 "command": "editor.action.rename",
                 "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+r ctrl+w",
+                "mac": "cmd+r cmd+w",
                 "command": "editor.action.toggleRenderWhitespace"
             },
             {
                 "key": "ctrl+k ctrl+m",
+                "mac": "cmd+k cmd+m",
                 "command": "editor.foldAll",
                 "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+-",
+                "mac": "cmd+-",
                 "command": "workbench.action.navigateBack"
             },
             {
                 "key": "ctrl+shift+-",
+                "mac": "cmd+shift+-",
                 "command": "workbench.action.navigateForward"
             },
             {
                 "key": "ctrl+,",
+                "mac": "cmd+,",
                 "command": "workbench.action.quickOpen"
             },
             {
@@ -178,24 +202,29 @@
             },
             {
                 "key": "ctrl+f4",
+                "mac": "cmd+f4",
                 "command": "workbench.action.closeActiveEditor"
             },
             {
                 "key": "ctrl+d",
+                "mac": "cmd+d",
                 "command": "editor.action.copyLinesDownAction"
             },
             {
                 "key": "ctrl+right",
+                "mac": "cmd+right",
                 "command": "cursorWordStartRight",
                 "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+shift+right",
+                "mac": "cmd+shift+right",
                 "command": "cursorWordStartRightSelect",
                 "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+enter",
+                "mac": "cmd+enter",
                 "command": "editor.action.insertLineBefore",
                 "when": "editorTextFocus && !editorReadonly"
             },
@@ -206,11 +235,13 @@
             },
             {
                 "key": "ctrl+shift+down",
+                "mac": "cmd+shift+down",
                 "command": "editor.action.wordHighlight.next",
                 "when": "editorTextFocus && hasWordHighlights"
             },
             {
                 "key": "ctrl+shift+up",
+                "mac": "cmd+shift+up",
                 "command": "editor.action.wordHighlight.prev",
                 "when": "editorTextFocus && hasWordHighlights"
             },
@@ -256,6 +287,7 @@
             },
             {
                 "key": "ctrl+delete",
+                "mac": "cmd+delete",
                 "command": "deleteWordStartRight",
                 "when": "editorTextFocus && !editorReadonly"
             }
